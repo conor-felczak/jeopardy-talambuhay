@@ -12,7 +12,7 @@ const pastQuestions: Question[] = sortQuestions([
     {
         points: 200,
         question:
-            'In what state is it illegal to take selfies with tigers',
+            'In what state is it illegal to take selfies with tigers (hint: it rhymes with stew pork)',
         answer: 'New York',
     },
     {
@@ -23,8 +23,8 @@ const pastQuestions: Question[] = sortQuestions([
     },
     {
         points: 400,
-        question: 'What was the first fully 2D animated film?',
-        answer: 'Fantasmagorie',
+        question: 'What game console did Nintendo release on November 18, 2012',
+        answer: 'Wii U',
     }
 ]);
 
@@ -39,13 +39,17 @@ const presentQuestions: Question[] =
         {
             points: 100,
             question:
-                'What book is the game "Black Myth Wukong" based on',
-            answer: 'Journey to the West',
+                'How many strings does a guitar have?',
+                imgSrc: '/GuitarPhoto.png',
+            answer: '6 strings',
         },
         {
             points: 300,
-            question: 'What programming language does Unity use?',
-            answer: 'C#',
+            question:
+            'What kind of wood is this?',
+            imgSrc: "/Plywood.png",
+            answer: 'Plywood',
+            
         },
         {
             points: 400,
@@ -62,23 +66,42 @@ const futureQuestions: Question[] = sortQuestions([
     {
         points: 100,
         question:
-            'What Genre of game is Deus Ex, Prey, and Bioshock (not fps)',
-        answer: 'Immersive Simulator',
+            'What genre of game is mario',
+        answer: 'platformer',
+    },
+    {
+        points: 200,
+        question: 'What programming language does Unity use?',
+        answer: 'C#',
+    },
+    {
+        points: 300,
+        question:
+            'Who is this chef from the hit 2007 movie ratatouille (last name only)',
+            imgSrc: "/Gusteau.png",
+        answer: 'Gusteau',
+    },
+
+    {
+        points: 400,
+        question:
+            'What is the most popular sport in the world',
+        answer: 'Soccer',
     }
 ]);
 
 
 const categories = [
     {
-        title: 'My Past',
+        title: 'Conor\'s Past',
         questions: pastQuestions
     },
     {
-        title: 'My Present',
+        title: 'Conor\'s Present',
         questions: presentQuestions
     },
     {
-        title: 'My Future',
+        title: 'Conor\'s Future',
         questions: futureQuestions
     }
 ];
