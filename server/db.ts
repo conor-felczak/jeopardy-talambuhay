@@ -6,25 +6,25 @@ const sortQuestions = (questions: { points: number; question: string; answer: st
 const pastQuestions: Question[] = sortQuestions([
     {
         points: 100,
-        question: 'What game engine is open source and uses gdscript as its primary coding language',
-        answer: 'Godot',
+        question: 'Who discovered the theory of relativity',
+        answer: 'Albert Einstein',
     },
     {
         points: 200,
         question:
-            'In what state is it illegal to take selfies with tigers (hint: it rhymes with stew pork)',
-        answer: 'New York',
+            'What is the 6th most spoken language in the world',
+        answer: 'French',
     },
     {
         points: 300,
         question:
-            'How much tailwind is needed to invalidate a world record for fastest for track and field sports (in m/s)',
+            'How much tailwind is needed to invalidate a world record for fastest 100 meter run (in m/s)',
         answer: '2 m/s',
     },
     {
         points: 400,
-        question: 'What game console did Nintendo release on November 18, 2012',
-        answer: 'Wii U',
+        question: 'What game engine is open source and uses GDscript as its primary coding language',
+        answer: 'Godot',
     }
 ]);
 
@@ -34,7 +34,7 @@ const presentQuestions: Question[] =
             points: 200,
             question:
                 'What club did Oliver and Conor start?',
-            answer: 'Game Development Club',
+            answer: 'The Game Development Club',
         },
         {
             points: 100,
@@ -80,15 +80,14 @@ const futureQuestions: Question[] = sortQuestions([
         question:
             'What is the most popular sport in the world',
         answer: 'Soccer',
-        
-           
+
+
     },
 
     {
         points: 400,
-        question: 'Who is this chef from the hit 2007 movie ratatouille (last name only)',
-        imgSrc: "/Gusteau.png",
-    answer: 'Gusteau',
+        question: 'In the movie Ratatouille, what is chef Gusteaus famous catchphrase',
+    answer: 'Anyone can cook',
     }
 ]);
 
