@@ -6,8 +6,8 @@ const sortQuestions = (questions: { points: number; question: string; answer: st
 const pastQuestions: Question[] = sortQuestions([
     {
         points: 100,
-        question: 'What school is near a cathedral and has an emblem with 7 candles in it?',
-        answer: 'The Cathedral School',
+        question: 'What game engine is open source and uses gdscript as its primary coding language',
+        answer: 'Godot',
     },
     {
         points: 200,
@@ -19,7 +19,7 @@ const pastQuestions: Question[] = sortQuestions([
         points: 300,
         question:
             'How much tailwind is needed to invalidate a world record for fastest for track and field sports (in m/s)',
-        answer: '2.0 m/s',
+        answer: '2 m/s',
     },
     {
         points: 400,
@@ -33,7 +33,7 @@ const presentQuestions: Question[] =
         {
             points: 200,
             question:
-                'What club did Oliver and Conor get approved to start yesterday (please join)',
+                'What club did Oliver and Conor start?',
             answer: 'Game Development Club',
         },
         {
@@ -76,17 +76,19 @@ const futureQuestions: Question[] = sortQuestions([
     },
     {
         points: 300,
+
         question:
-            'Who is this chef from the hit 2007 movie ratatouille (last name only)',
-            imgSrc: "/Gusteau.png",
-        answer: 'Gusteau',
+            'What is the most popular sport in the world',
+        answer: 'Soccer',
+        
+           
     },
 
     {
         points: 400,
-        question:
-            'What is the most popular sport in the world',
-        answer: 'Soccer',
+        question: 'Who is this chef from the hit 2007 movie ratatouille (last name only)',
+        imgSrc: "/Gusteau.png",
+    answer: 'Gusteau',
     }
 ]);
 
